@@ -13,6 +13,7 @@ namespace Virtual_stock
     {
         public static void Main(string[] args)
         {
+          
             CreateHostBuilder(args).Build().Run();
         }
 
