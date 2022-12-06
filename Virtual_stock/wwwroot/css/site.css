@@ -1,72 +1,640 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿@font-face {
+    font-family: "KingPowerText-Bold";
+    src: url('../fonts/KingPowerText-Bold.eot');
+    src: url("../fonts/KingPowerText-Bold.woff2") format("woff2"), url("../fonts/KingPowerText-Bold.woff") format("woff"), url("../fonts/KingPowerText-Bold.ttf") format("truetype"), url("../fonts/KingPowerText-Bold.otf") format("opentype"), url("../fonts/KingPowerText-Bold.eot?#iefix") format("embedded-opentype");
 }
 
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+@font-face {
+    font-family: "KingPowerText-Light";
+    src: url('../fonts/KingPowerText-Light.eot');
+    src: url("../fonts/KingPowerText-Light.woff2") format("woff2"), url("../fonts/KingPowerText-Light.woff") format("woff"), url("../fonts/KingPowerText-Light.ttf") format("truetype"), url("../fonts/KingPowerText-Light.otf") format("opentype"), url("../fonts/KingPowerText-Light.eot?#iefix") format("embedded-opentype");
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+@font-face {
+    font-family: "KingPowerText-Regular";
+    src: url("../fonts/KingPowerText-Regular.eot");
+    src: url("../fonts/KingPowerText-Regular.woff2") format("woff2"), url("../fonts/KingPowerText-Regular.woff") format("woff"), url("../fonts/KingPowerText-Regular.ttf") format("truetype"), url("../fonts/KingPowerText-Regular.otf") format("opentype"), url("../fonts/KingPowerText-Regular.eot?#iefix") format("embedded-opentype");
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-weight: unset;
+    letter-spacing: 1px;
+    /*font-size: 100%;*/ /* set root font-size  เป็น 10px */
 }
+
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 11px;
+    }
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* margin-bottom: 60px;*/
+    font-weight: unset;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    /*background: url(images/bg-bar-footer-2.png) 0% 100% no-repeat, linear-gradient(179.7deg, #F9F9F9 26.81%, #EDEDED 95.79%);*/
+    background-size: auto,cover;
+    height: 100vh;
+/*    width: 100vw;*/
+    overflow-x: hidden;
+    background-attachment: fixed;
+    font-family: KingPowerText-Regular !important;
+    color: black;
 }
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column */
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+body, html, div {
+    font-family: KingPowerText-Regular !important;
+    font-size: 12px !important;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: KingPowerText-Bold;
+}
+
+.content-wrapper {
+    background-image: url(../Images/Main-Dashboard.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+a.k-link:focus,
+a.navbar-brand:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.container-fluid .text-muted {
+    margin: 20px 0;
+}
+
+.placeholders {
+    margin: 30px auto;
+}
+
+.placeholder img {
+    display: inline-block;
+}
+/* #endregion */
+
+/* #region Header styles */
+.k-header h1 {
+    margin: 0;
+    padding: 30px 15px;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+html .navbar-fixed-top {
+    border: 0;
+}
+
+.page-login {
+    background: url('../Images/About-our-Bangkok-City-Hotel-Enjoy-duty-free-shopping-at-Bangkok-city-hotel.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-box, .register-box {
+    background: #024DA1;
+    padding: 30px;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #024DA1, #00aab2);
+    /* opacity: 0.9; */
+}
+/* #region Toggle button styles  */
+html .k-rpanel-toggle {
+    display: none;
+}
+
+html body .btn-toggle,
+html body .k-primary.btn-toggle:hover,
+html body .btn-toggle:focus:active:not(.k-state-disabled):not([disabled]),
+html body .btn-toggle:focus:not(.k-state-disabled):not([disabled]) {
+    box-shadow: none;
+    border-radius: 0;
+}
+/* #endregion */
+
+/* #region Navbar styles */
+.navbar-header {
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+}
+
+html .navbar-header .btn-toggle {
+    padding: 8px;
+    line-height: 20px;
+    background: transparent;
+    color: #fff;
+    border: 0;
+    float: right;
+    margin: 7px;
+    padding: 15px;
+    margin: 0;
+}
+
+    html .navbar-header .btn-toggle:hover {
+        background-color: #444;
+    }
+
+.navbar-header .k-icon.k-i-hbars {
+    width: 24px;
+    height: 20px;
+    line-height: inherit;
+    vertical-align: top;
+    font-size: inherit;
+    background: none;
+}
+
+.navbar-header .k-i-hbars:before {
+    font-size: 24px;
+    content: "\2630";
+    display: inline-block;
+}
+
+/* #endregion */
+
+.login-box-msg, .register-box-msg {
+    /*font-family: "KingPowerText-Regular" !important;*/
+}
+
+/* #region Navbar Menu styles */
+.navbar .k-menu {
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    background: none;
+}
+
+    .navbar .k-menu > .k-first,
+    .navbar .k-menu > .k-last {
+        border-radius: 0;
+    }
+
+html .navbar .k-menu .k-item {
+    border: 0;
+}
+
+.navbar .k-item {
+    color: #999999;
+}
+
+.navbar .k-menu .k-state-hover,
+.navbar .k-menu .k-state-highlight,
+.navbar .k-menu .k-link.k-state-active,
+.navbar .k-menu .k-state-hover > .k-link {
+    color: #fff;
+    background: transparent;
+}
+
+html .navbar .k-link {
+    color: inherit;
+}
+
+html body .navbar .navbar-brand {
+    box-sizing: border-box;
+}
+
+/* #endregion */
+
+/* #region Footer styles */
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    right: 30px;
+    height: 75px;
+    font-size: 0.85em;
+}
+/* #endregion */
+
+/* #region custom Kendo UI styles */
+html .k-panelbar .k-content {
+    padding: 1em;
+}
+
+p .k-button {
+    margin: 0 15px 0 0;
+}
+
+.k-state-active .label {
+    font-size: 1em;
+    color: #000;
+}
+/* #endregion */
+
+
+
+skin-blue .main-header .navbar, .skin-blue .main-header .logo {
+    background-color: #024DA1;
+}
+
+.k-draghandle.k-state-selected:hover, .k-ghost-splitbar-horizontal, .k-ghost-splitbar-vertical, .k-list > .k-state-highlight, .k-list > .k-state-selected, .k-marquee-color, .k-panel > .k-state-selected, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-today.k-state-selected, .k-state-selected, .k-state-selected:link, .k-state-selected:visited, .k-tool.k-state-selected {
+    /* color: #fff !important; */
+    /* background-color: #024DA1 !important; */
+    /* border-color: #024DA1 !important; */
+}
+
+.btn-primary {
+    background-color: #024DA1;
+    border-color: #024DA1;
+}
+
+.main-header .sidebar-toggle {
+    float: left;
+    background-color: transparent;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    display: table;
+    bottom: 0;
+}
+
+.k-pager-wrap .k-link:hover {
+    color: #024DA1 !important;
+    border-color: #024DA1 !important;
+    background: #ebebeb !important;
+}
+
+.k-pager-nav.k-pager-first + .k-link {
+    border-right: 0px solid #024DA1 !important;
+}
+
+.k-link:link, .k-link:visited, .k-nav-current.k-state-hover .k-link {
+    color: #024DA1;
+}
+
+.k-filter-row > th:first-child, .k-grid tbody td:first-child, .k-grid tfoot td:first-child, .k-grid-header th.k-header:first-child {
+    border-left-width: 1px !important;
+}
+
+.k-dialog .k-window-titlebar {
+    padding: 1em;
+    border-color: #ebebeb;
+    /* background: #fff; */
+    vertical-align: middle;
+    margin: auto;
+    padding: 3px;
+}
+
+.k-dialog .k-dialog-titlebar .k-dialog-actions {
+    top: 0 !important;
+    margin-top: 0 !important;
+    right: .8em !important;
+    padding: 10px !important;
+}
+
+.k-block, .k-draghandle, .k-grid-header, .k-grouping-header, .k-header, .k-pager-wrap, .k-toolbar, .k-treemap-tile, html .km-pane-wrapper .k-header {
+    /*  background-color: #f5f5f5;
+    background-image: linear-gradient(to right, #024DA1, #07ABC4);
+    color: #ffffff;*/
+}
+
+    .k-filter-row th, .k-grid-header th.k-header {
+        overflow: hidden;
+        border-style: solid;
+        border-width: 0 0 1px 1px;
+        padding: .5em .6em .4em .6em;
+        font-weight: 400;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: center !important;
+        color: #fff;
+        background-image: none !important;
+        background-color: #024DA1 !important;
+    }
+
+    .k-grid-header .k-link:link, .k-grid-header .k-link:visited, .k-grid-header .k-nav-current.k-state-hover .k-link, .k-grouping-header .k-link {
+        color: #fff !important;
+    }
+
+    .k-grid-header .k-header > .k-link {
+        color: #fff !important;
+    }
+
+.k-grid tbody .k-button, .k-button .k-button-icontext .k-grid-Active {
+    /*width: 100%;*/
+}
+/*button*/
+.btn {
+    display: inline-block;
+    /*  padding: 5px 10px;*/
+    margin: auto;
+    /*font-size: 120%;*/
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    vertical-align: middle;
+    user-select: none;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 4px;
+}
+
+td a.btn.btn-primary {
+    margin: 10px;
+}
+
+.action {
+    background: #999999;
+}
+
+li:active {
+    background-color: #999;
+}
+
+div#details-container tr {
+    height: 3em !important;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #024DA1;
+}
+
+#details-container td {
+    font-size: 12px;
+}
+
+.treeview span {
+    font-weight: 900;
+}
+
+h2, .h2 {
+    font-family: "KingPowerText-Bold";
+    font-size: 16px !important;
+}
+
+h1, .h1 {
+    font-family: "KingPowerText-Bold";
+    font-size: 18px !important;
+}
+
+.k-widget .k-dropdown .k-header .k-input {
+    padding: 0 !important;
+}
+
+@media (max-width: 767px) {
+    /*  body {
+        font-size: 12px;
+    }*/
+
+    .content-header {
+        position: relative;
+        padding: 30px 15px 0 15px;
+    }
+
+    /*.skin-blue .sidebar-menu > li > .treeview-menu a {
+        font-size: 10px;
+    }*/
+
+    /* .btn {
+        font-size: 12px;
+    }*/
+
+
+    #responsive-panel .k-item {
+        float: none;
+    }
+
+    html .k-rpanel-toggle {
+        display: block;
+    }
+
+    .k-header h1 {
+        margin: 0;
+        padding: 16px 15px 14px 60px;
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    .k-dialog .k-content table {
+        font-size: 12px !important;
+    }
+}
+
+.compare_sales_remark {
+    font-size: 14px;
+    /*text-wrap: normal;*/
+    word-wrap: break-word;
+}
+
+
+
+
+/*begin boostrap*/
+.card-header {
+    background-color: #024da1;
+    color: white;
+    font-size: medium;
+}
+/* end boostrap*/
+
+.k-container {
+    padding: 4px;
+}
+
+.k-grid tbody tr:hover {
+    color: #ffffff;
+    background-color: rgba(23, 162, 184, .75);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand img {
+    width: 10em;
+}
+
+.navbar-lightblue {
+    background-color: #0B56A4;
+}
+
+.navbar-kingpower.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu-right {
+    font-size: 1em;
+}
+/*end navbar*/
+.k-loading-color {
+    opacity: 0.5 !important;
+}
+
+.k-grid-header {
+    /*background-color: #024da1;
+    color:white;*/
+}
+
+#grid .k-grid-content {
+    /*max-height: calc(96vh - 350px);
+    min-height: calc(96vh - 350px);*/
+}
+
+.k-grid td {
+    padding: 0.2em 0.2em
+}
+
+.card-header {
+    background-color: #024da1;
+    color: white;
+    font-size: medium;
+}
+
+.card-header-2 {
+    background-color: rgba(23, 162, 184, .75);
+    color: white;
+    font-size: medium;
+}
+
+.form-filter {
+    font-size: 1.3rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    /*font-size: 1.3rem;*/
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    /*border: 1px solid #ced4da;*/
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.grid-custom {
+    font-size: 1.3rem;
+    color: black
+}
+
+.k-grid-pager {
+    font-size: 12px;
+}
+
+/*.k-dropdown-wrap k-state-default .k-select {
+    font-size: 12px;
+}*/
+
+
+.k-pager-sizes k-label {
+    font-size: 12px;
+}
+
+.k-picker-wrap {
+    border-width: 1px;
+    /* border-style: none !important;*/
+}
+
+.k-loading-image {
+    background-image: url(../images/loading.gif) !important;
+}
+
+/*Report*/
+.report-content {
+    padding: 8px 6px 8px 6px;
+}
+
+.report-company {
+    font-size: 1.32em;
+    font-weight: bold;
+}
+
+.report-name {
+    font-size: 1.2em;
+}
+
+.report-infomation {
+    font-size: 1em;
+}
+
+.report-condition {
+    text-decoration: underline;
+}
+
+/*Report End*/
+
+.hyper_link {
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    top: 200px;
+    left: 0;
+    z-index: 10100;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.img-preview {
+    width: 470px;
+}
+
+.table-responsive {
+        font-size: 10px !important;
 }
 

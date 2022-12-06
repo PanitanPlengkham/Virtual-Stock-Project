@@ -39,3 +39,4 @@
 /Users/panitanplengkham/Projects/Virtual_stock/Virtual_stock/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.build.Virtual_stock.props
 /Users/panitanplengkham/Projects/Virtual_stock/Virtual_stock/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildMultiTargeting.Virtual_stock.props
 /Users/panitanplengkham/Projects/Virtual_stock/Virtual_stock/obj/Debug/netcoreapp3.1/staticwebassets/msbuild.buildTransitive.Virtual_stock.props
+/Users/panitanplengkham/Projects/Virtual_stock/Virtual_stock/obj/Debug/netcoreapp3.1/Razor/Pages/Vs.cshtml.g.cs

@@ -1,9 +1,23 @@
 ﻿<Properties StartupConfiguration="{3804C71D-8FE8-4334-8453-934E47CDC202}|Default">
-  <MonoDevelop.Ide.ItemProperties.Virtual__stock PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Virtual_stock/Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Virtual_stock/Pages/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="Virtual_stock/Pages/Index.cshtml" Line="12" Column="1" />
+      <File FileName="Virtual_stock/Program.cs" Line="28" Column="1" />
+      <File FileName="Virtual_stock/Pages/Index.cshtml.cs" Line="8" Column="1" />
+      <File FileName="Virtual_stock/Pages/Shared/grid.js" Line="17" Column="1" />
+      <File FileName="Virtual_stock/Pages/Index.cshtml" Line="21" Column="1" />
+      <File FileName="Virtual_stock/Pages/Privacy.cshtml" Line="10" Column="1" />
+      <File FileName="Virtual_stock/Pages/Privacy.cshtml.cs" Line="24" Column="2" />
+      <File FileName="Virtual_stock/wwwroot/js/site.js" Line="1" Column="1" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.100/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.Shared.targets" Line="213" Column="5" />
+      <File FileName="Virtual_stock/Pages/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Virtual_stock/Pages/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Virtual_stock/Pages/Privacy copy.cshtml" Line="15" Column="7" />
+      <File FileName="Virtual_stock/Pages/Vs.cshtml.cs" Line="17" Column="30" />
+      <File FileName="Virtual_stock/Pages/Shared/_Layout.cshtml" Line="27" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,19 +25,25 @@
           <Node name="Virtual_stock" expanded="True">
             <Node name="Virtual_stock" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Index.cshtml" expanded="True" selected="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
-              <Node name="wwwroot" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="jquery" expanded="True" />
+                  <Node name="jquery-validation" expanded="True">
+                    <Node name="dist" expanded="True" />
+                  </Node>
+                  <Node name="jquery-validation-unobtrusive" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Virtual__stock PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>
