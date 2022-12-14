@@ -1,0 +1,317 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Bold.eot",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Bold.eot"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Bold.otf",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Bold.otf"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Bold.ttf",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Bold.ttf"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Bold.woff",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Bold.woff"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Bold.woff2",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Bold.woff2"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Light.eot",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Light.eot"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Light.otf",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Light.otf"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Light.ttf",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Light.ttf"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Light.woff",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Light.woff"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Light.woff2",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Light.woff2"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Regular.eot",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Regular.eot"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Regular.otf",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Regular.otf"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Regular.ttf"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Regular.woff",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Regular.woff"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/fonts/KingPowerText-Regular.woff2",
+      "PackagePath": "staticwebassets/fonts/KingPowerText-Regular.woff2"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/bg-bar-footer-2.png",
+      "PackagePath": "staticwebassets/images/bg-bar-footer-2.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/bg-bar-footer.png",
+      "PackagePath": "staticwebassets/images/bg-bar-footer.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/bg-health-care.png",
+      "PackagePath": "staticwebassets/images/bg-health-care.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/bg-ware.png",
+      "PackagePath": "staticwebassets/images/bg-ware.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/bg.png",
+      "PackagePath": "staticwebassets/images/bg.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/favicon.ico",
+      "PackagePath": "staticwebassets/images/favicon.ico"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/image_signature.jpg",
+      "PackagePath": "staticwebassets/images/image_signature.jpg"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/kingpower-logo-white-2.png",
+      "PackagePath": "staticwebassets/images/kingpower-logo-white-2.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/kingpower-logo-white.png",
+      "PackagePath": "staticwebassets/images/kingpower-logo-white.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/loading.gif",
+      "PackagePath": "staticwebassets/images/loading.gif"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/logo-gold.svg",
+      "PackagePath": "staticwebassets/images/logo-gold.svg"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/logo-white.svg",
+      "PackagePath": "staticwebassets/images/logo-white.svg"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/logo.svg",
+      "PackagePath": "staticwebassets/images/logo.svg"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/logo_color.png",
+      "PackagePath": "staticwebassets/images/logo_color.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/logo_color_2.png",
+      "PackagePath": "staticwebassets/images/logo_color_2.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/images/logo_color_report.png",
+      "PackagePath": "staticwebassets/images/logo_color_report.png"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/js/jsgrid/jsgrid-theme.css",
+      "PackagePath": "staticwebassets/js/jsgrid/jsgrid-theme.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/js/jsgrid/jsgrid-theme.min.css",
+      "PackagePath": "staticwebassets/js/jsgrid/jsgrid-theme.min.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/js/jsgrid/jsgrid.css",
+      "PackagePath": "staticwebassets/js/jsgrid/jsgrid.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/js/jsgrid/jsgrid.js",
+      "PackagePath": "staticwebassets/js/jsgrid/jsgrid.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/js/jsgrid/jsgrid.min.css",
+      "PackagePath": "staticwebassets/js/jsgrid/jsgrid.min.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/js/jsgrid/jsgrid.min.js",
+      "PackagePath": "staticwebassets/js/jsgrid/jsgrid.min.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/peerasu/Desktop/Tracking_Interface_API/Tracking_Interface_API/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.Tracking_Interface_API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.build.Tracking_Interface_API.props",
+      "PackagePath": "build\\Tracking_Interface_API.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.buildMultiTargeting.Tracking_Interface_API.props",
+      "PackagePath": "buildMultiTargeting\\Tracking_Interface_API.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.buildTransitive.Tracking_Interface_API.props",
+      "PackagePath": "buildTransitive\\Tracking_Interface_API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "Visual Stock";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="pt-4">
+    <h4>@ViewData["Title"]</h4>
+</div>
+<hr />
+<div class="container-fluid">
+    <form>
+        <div class="row">
+            <div class="col">
+                <label for="BlueTag" class="form-label">Blue Tag Product</label>
+                <input type="text" class="form-control" id="BlueTag" placeholder="Blue Tag Product">
+            </div>
+            <div class="col">
+                <label for="WhiteTag" class="form-label">White Tag Product</label>
+                <input type="text" class="form-control" id="WhiteTag" placeholder="White Tag Product">
+            </div>
+            <div class="col">
+                <button type="button" onclick="search()" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </form>
+    <hr />
+    <div id="jsGrid"></div>
+</div>
+<style>
+    .jsgrid-table {
+        font-size:12px !important;
+    }
+</style>
+@section scripts {
+    <script> 
+
+        const search = async () => {
+
+            try {
+                var article_code = document.getElementById('WhiteTag').value
+                var article_code_duty_paid = document.getElementById('BlueTag').value
+
+                console.log(article_code)
+                console.log(article_code_duty_paid)
+                //console.log(shopping_card)
+
+                let dataSearch = {
+                    article_code: article_code,
+                    article_code_duty_paid: article_code_duty_paid
+    
+                };
+                console.log(dataSearch);
+
+                let options = {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(dataSearch)
+                };
+
+                await fetch('/Tracking/TrackingOrder', options)
+                    .then(async (res) => ({
+                        status: res.status,
+                        body: await res.json()
+                    })).then(({ status, body }) => {
+                        console.log(status); // this is the status code
+                        console.log(body);   // this is json body 
+
+                        generatorTable(body);
+
+                    });
+            } catch (error) {
+                console.log(error);
+            }
+        }
+
+        function generatorTable(data) 
+        {
+            var clients = data;
+
+             $("#jsGrid").jsGrid({
+                width: "auto",
+                height: "500px",
+                //inserting: true,
+                editing: true,
+                autoload: true,
+                //sorting: true,
+                paging: true,
+                data: clients,
+                fields: [
+                    { name: "id", type: "number" },
+                    { name: "article_code", type: "text" },
+                    { name: "article_code_duty_paid", type: "text" },
+                   
+                ]
+             });
+        }
+
+   </script>
+}

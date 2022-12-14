@@ -1,12 +1,14 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Tracking_Interface_API.Context;
 using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services.AddDbContext<DataContext>(options =>
-//  options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<DataContext>(options =>
+  options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -32,8 +34,11 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default" ,
-    pattern: "{controller=VirtualStock}/{action=Index}/{id?}");
+    pattern: "{controller=Tracking}/{action=Index}/{id?}");
+
+app.MapAreaControllerRoute(
+    name: "TrackingInterfaceAPI",
+    areaName: "TrackingInterfaceAPI",
+    pattern: "TrackingInterfaceAPI/{controller=Tracking}/{action=Index}/{id?}");
 
 app.Run();
-
-
